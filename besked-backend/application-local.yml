@@ -9,3 +9,4 @@ management:
     jmx:
       exposure:
         include: "*"
+service-name: besked-service
