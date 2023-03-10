@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: regelmotor-backend
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+    jmx:
+      exposure:
+        include: "*"

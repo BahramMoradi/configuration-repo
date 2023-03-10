@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: besked-backend
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+    jmx:
+      exposure:
+        include: "*"
+service-name: besked-service
